@@ -18,11 +18,12 @@ export class MediasService {
   }
 
   findAll() {
-    return this.medias
+    return this.medias;
     //return `This action returns all medias`;
   }
 
   findOne(id: number) {
+    //return this.medias.find()
     return `This action returns a #${id} media`;
   }
 
